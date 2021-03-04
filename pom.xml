@@ -47,11 +47,11 @@
    <connection>scm:git:https://github.com/dvkrish5/journey.git</connection>
        <url>http://github.com/user/project</url>
     <developerConnection>scm:git:https://github.com/dvkrish5/journey.git</developerConnection>
-    <tag>fss-1.0</tag>
+    <tag>fss-1.0SNAPSHOT</tag>
   </scm>
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
@@ -191,5 +191,3 @@
    </profile>
 </profiles>
 </project>
-
-  
